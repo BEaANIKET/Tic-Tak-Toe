@@ -46,6 +46,7 @@ document.querySelector('.reset').addEventListener('click',function(){
         let boxtext=element.querySelector('.boxtext');
         boxtext.innerText="";
         stopDance();
+        turn='X';
     })
 })
 
