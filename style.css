@@ -122,9 +122,12 @@
     width: 50px;
 }
 .boxtext{
-    font-size: 103px;  
+    font-size:110px ;  
     z-index: 999;
     color: #edf1f4;
+    height: fit-content;
+    width: fit-content;
+    /* background-color: red; */
 }
 .lastText{
     display: flex;
@@ -181,6 +184,9 @@
     .game{ 
         grid-template-rows: repeat(3,11vh);
         grid-template-columns: repeat(3,22vw);
+    }
+    .boxtext{
+        font-size: calc(min(15vw,9vh));
     }
     .score{
         font-size: 6vw;
